@@ -1,0 +1,25 @@
+@media screen and (max-width:767px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .box {
+        color: white;
+        border: solid 2px black;
+        height: 500px;
+        width: 200px;
+    }
+}
+@media screen and (min-width:768px) {
+    
+}
+body {
+    background-color: black;
+    color: #b0aeae;
+}
